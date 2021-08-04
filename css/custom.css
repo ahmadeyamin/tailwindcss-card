@@ -1,0 +1,36 @@
+.full-page_bg{
+    background-image:linear-gradient(45deg,rgba(255, 61, 61, 0.8),rgba(11, 15, 240, 0.8)), url('https://c75319c1136a6e6b.demo.carrd.co/assets/images/bg.jpg?v=408335c5');
+    background-attachment: fixed;
+}
+.full-page_bg_revarse{
+    background-image:linear-gradient(-45deg,rgba(255, 61, 61, 0.8),rgba(11, 15, 240, 0.8));
+    background-attachment: fixed;
+}
+
+
+/* card 2 */
+
+.c2_box-size{
+    width: 40rem;
+}
+
+
+/* //card 3 */
+
+
+.c3_bg{
+    background-image: linear-gradient(45deg, #96E6FF 0%, #96A7FF 81%);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c3_img{
+    height: 100%;
+}
+
+@media (max-width: 639px){
+    .c3_img{
+        height: 500px;
+    }
+
+}
